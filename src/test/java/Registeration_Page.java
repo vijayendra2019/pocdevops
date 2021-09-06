@@ -15,7 +15,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class Registeration_Page {
 	
-	
+	//welcome to java
 	public Properties properties;
 	public final String propertyFilePath= "config//applications.properties";
 	
