@@ -23,6 +23,7 @@ public class Registeration_Page {
 	public Registeration_Page(){
 		
 		BufferedReader reader;
+		
 		try {
 			reader = new BufferedReader(new FileReader(propertyFilePath));
 			properties = new Properties();
@@ -52,6 +53,7 @@ public class Registeration_Page {
 	
 	
 	public static void main(String[] args) throws InterruptedException {
+		//This is my beginning of test
 		
 		Registeration_Page Registeration_Page =new Registeration_Page();
 		String URL=  Registeration_Page.getApplicationUrl();
